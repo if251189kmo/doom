@@ -1,0 +1,17 @@
+@import './../../styles/scroll.module.scss';
+
+.alerts {
+  .box {
+    min-height: auto;
+    max-height: 100vh;
+    overflow-y: scroll;
+    position: absolute;
+    z-index: 1400;
+    right: 0;
+
+    .alert {
+      width: 350px;
+      margin: 5px;
+    }
+  }
+}

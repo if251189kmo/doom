@@ -1,0 +1,8 @@
+{
+  "logger": true,
+  "typescript": true,
+  "server": {
+    "open": true,
+    "port": 3001
+  }
+}

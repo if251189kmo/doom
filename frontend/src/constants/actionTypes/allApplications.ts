@@ -1,0 +1,13 @@
+const MODULE_NAME = 'allApplications';
+
+const ALL_APPLICATIONS_ACTION_TYPES = {
+  NAME: MODULE_NAME,
+  THUNKS: {
+    ITEMS: `${MODULE_NAME}/ITEMS`,
+    EDIT: `${MODULE_NAME}/EDIT`,
+    UPLOAD: `${MODULE_NAME}/UPLOAD`,
+    DOWNLOAD: `${MODULE_NAME}/DOWNLOAD`,
+  },
+} as const;
+
+export default ALL_APPLICATIONS_ACTION_TYPES;

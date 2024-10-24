@@ -1,0 +1,17 @@
+@import './../../styles/colors.module.scss';
+@import './../../styles/snippets.module.scss';
+
+.progress {
+  .container {
+    @include rowflexAJC;
+    position: absolute;
+    background-color: $progress;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+
+    span {
+      margin: 0 0 0 15px;
+    }
+  }
+}
